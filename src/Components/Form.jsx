@@ -9,6 +9,8 @@ const Form = ({ addTask }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(!title) return;
+    
     const newTask = {
       title: title,
       completed: false,

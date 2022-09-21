@@ -6,9 +6,9 @@ const Task = ({ task, removeTask, completeTask }) => {
         {task ? (
             <>
             <input type="checkbox" onClick={() => completeTask(task.id)} />
-            <h2 style={task.completed ? { textDecoration: 'line-through' } : { textDecoration: 'none' }}>
-                {task.title}
-            </h2>
+            <h1 style={task.completed ? { textDecoration: 'line-through' } : { textDecoration: 'none' }}>
+                {task.title.toUpperCase()}
+            </h1>
             <button onClick={() => removeTask(task.id)}>Delete</button>
             </>
         ) : (
