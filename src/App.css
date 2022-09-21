@@ -45,6 +45,10 @@ button {
   cursor: pointer;
 }
 
+button:hover{
+  background-color: #449a47;
+}
+
 input[type=text] {
   padding: 12px 20px;
   font-size: 1.5rem;
@@ -56,6 +60,10 @@ input[type=text] {
 
 .task button{
   background-color: #f44336;
+}
+
+.task button:hover{
+  background-color: #d54338;
 }
 
 .App{
