@@ -2,7 +2,7 @@ import React from 'react';
 
 const Task = ({ task, removeTask, completeTask }) => {
     return (
-        <div className="task-container">
+        <div className="task">
         {task ? (
             <>
             <input type="checkbox" onClick={() => completeTask(task.id)} />

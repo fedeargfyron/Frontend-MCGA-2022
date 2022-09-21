@@ -6,7 +6,7 @@ import Lista from './Components/Lista';
 function App() {
   const [tasks, setTasks] = useState([
     {
-      title: 'Learn about React',
+      title: 'Tarea inicial de prueba',
       completed: false,
       id: Math.floor(Math.random() * 100),
     },

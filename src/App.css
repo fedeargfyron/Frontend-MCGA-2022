@@ -1,16 +1,34 @@
-.App {
+*{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  background-color: #282c34;
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .task-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+}
+
+.task {
+  display: flex;
 }
 
 h2 {
